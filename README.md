@@ -1,0 +1,3 @@
+# React Double State Update Bug
+
+This repository demonstrates a common React bug caused by a double state update within a single event handler. This leads to unexpected behavior because the second state update overwrites the first one.  The `bug.js` file contains the buggy code, and the `bugSolution.js` file provides a corrected implementation.  This is a typical example of how seemingly small changes in the timing of React state updates can lead to significant problems in application behavior.
